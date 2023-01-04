@@ -24,7 +24,7 @@ namespace OWASP.WebGoat.NET
 				
 				//create the connection
 				conn = new SqliteConnection (connectionstring);
-				conn.Open ();
+				// conn.Open ();
 			}
 			return conn;
 		}
